@@ -1,0 +1,182 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #f1f6f9;
+  color: #40514E;
+}
+
+h1{
+  color: #66BFBF;
+  font-size: 5.62rem;/******root em ignore all the parents fonts size *****/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 6%;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+.footer-link{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #eaf6f6;
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.top-container{
+  background-image: url("https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-color: #fff5ea;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 80px 0;
+}
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 40px 0 20px 0;
+}
+.earth{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: -4px;
+}
+.moon{
+  width:15%;
+  position: absolute;
+  right: 150px;
+  top: 60px;
+}
+
+.sun{
+  width:15%;
+  position: absolute;
+  left: 40px;
+  top: 80px;
+}
+.profileImage{
+  width: 15%;
+}
+
+
+.linkedin{
+  width: 25px;
+  margin-bottom: -6px;
+}
+.twitter{
+  margin-left: 20px;
+  width: 25px;
+  margin-bottom: -6px;
+}
+.mywebsite{
+  margin-left: 20px;
+  width: 25px;
+  margin-bottom: -6px;
+}
+
+.skill-row{
+  width: 50%;
+  margin:80px auto 80px auto;
+  text-align: left;
+}
+
+.skillImage{
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin: 0 30px 20px 0;
+}
+
+.cyber{
+  width: 25%;
+  height: 25%;
+  float: right;    /****  clear is the property that clears the described side of item like "clear:left;" ****/
+  margin: 0 0 0 30px;
+}
+.intro-message{
+  width: 40%;
+  margin:auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 14px;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 0;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+.projectImage{
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin: 0 30px 20px 0;
+}
+.resumeImage{
+  width: 25%;
+  height: 25%;
+  float: right;    /****  clear is the property that clears the described side of item like "clear:left;" ****/
+  margin: 0 0 0 30px;
+}
